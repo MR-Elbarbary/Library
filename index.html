@@ -8,17 +8,65 @@
     <title>Library</title>
 </head>
 <body>
-    <dialog>
+    <div class="container">
+        <h1>Your Library</h1>
+        <button id="Create" type="button">New Book</button>
+    </div>
+
+        <div class="books">
+            <div class="book">
+                <h2>name corner test</h2>
+                <h3>author</h3>
+                <h3>30 pages</h3>
+                <button data-="1">Delete</button>
+            </div>
+            <div class="book">
+                <h2>name</h2>
+                <h3>author</h3>
+                <h3>30 pages</h3>
+                <button data-="1">Delete</button>
+            </div>
+            <div class="book">
+                <h2>name</h2>
+                <h3>author</h3>
+                <h3>30 pages</h3>
+                <button data-="1">Delete</button>
+            </div>
+            <div class="book">
+                <h2>name</h2>
+                <h3>author</h3>
+                <h3>30 pages</h3>
+                <button data-="1">Delete</button>
+            </div>
+        </div>
+
+
+    <dialog id="Form">
         <form action="" method="dialog">
             <h1>New Book</h1>
-            <label for="title"></label>
-            <input id="title" type="text">
-            <label for="author"></label>
-            <input id="author" type="text">
-            <label for="pages"></label>
-            <input id="pages" type="number" min="0">
-            <button>Cancel</button>
-            <button>Submit</button>
+
+            <div class="row">
+                <div class="column">
+                    <label for="title">Title</label>
+                    <input id="title" type="text">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <label for="author">Author</label>
+                    <input id="author" type="text">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <label for="pages">Pages</label>
+                    <input id="pages" type="number" min="0">
+                </div>
+            </div>
+            <button id="close">Cancel</button>
+            <button id="submit">Submit</button>
         </form>
     </dialog>
 </body>
