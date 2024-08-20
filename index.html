@@ -48,22 +48,26 @@
             <div class="row">
                 <div class="column">
                     <label for="title">Title</label>
-                    <input id="title" type="text">
+                    <input id="title" name="title" type="text">
                 </div>
             </div>
 
             <div class="row">
                 <div class="column">
                     <label for="author">Author</label>
-                    <input id="author" type="text">
+                    <input id="author" name="author" type="text">
                 </div>
             </div>
 
             <div class="row">
                 <div class="column">
                     <label for="pages">Pages</label>
-                    <input id="pages" type="number" min="0">
+                    <input id="pages" name="pages" type="number" min="0">
                 </div>
+            </div>
+            <div class="checkBox">
+                    <label for="isRead">Read</label>
+                    <input type="checkbox" id="isRead" name="isRead">
             </div>
             <button id="close">Cancel</button>
             <button id="submit">Submit</button>

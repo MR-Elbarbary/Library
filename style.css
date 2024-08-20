@@ -49,7 +49,6 @@ body{
 dialog{
     border-radius: 40px;
     padding: 5%;
-    
 }
 
 dialog::backdrop{
@@ -61,6 +60,12 @@ dialog::backdrop{
     display: flex;
     margin: 2vh;
     gap: 5vw;
+}
+
+.checkBox{
+    display: flex;
+    margin: 2vh;
+    align-items: center;
 }
 
 .column{
