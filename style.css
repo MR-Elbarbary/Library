@@ -29,11 +29,26 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: aliceblue;
     border-radius: 40px;
     min-width: 300px;
+    max-width: 550px;
     min-height: 300px;
     color: black;
+}
+
+.book>div>button{
+    background-color: var(--clrs);
+    font-size: 1.1rem;
+    padding: 0.5rem 1.3rem;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.book>div{
+    margin-top: auto;
+    margin-bottom: 5%;
+    display: flex;
+    gap: 10px;
 }
 
 .books{
@@ -79,4 +94,12 @@ input{
 
 form>button{
     margin: 5px;
+}
+
+.read{
+    background-color: aliceblue;
+}
+
+.notRead{
+    background-color: lightcoral;
 }

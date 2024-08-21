@@ -13,33 +13,8 @@
         <button id="Create" type="button">New Book</button>
     </div>
 
-        <div class="books">
-            <div class="book">
-                <h2>name corner test</h2>
-                <h3>author</h3>
-                <h3>30 pages</h3>
-                <button data-="1">Delete</button>
-            </div>
-            <div class="book">
-                <h2>name</h2>
-                <h3>author</h3>
-                <h3>30 pages</h3>
-                <button data-="1">Delete</button>
-            </div>
-            <div class="book">
-                <h2>name</h2>
-                <h3>author</h3>
-                <h3>30 pages</h3>
-                <button data-="1">Delete</button>
-            </div>
-            <div class="book">
-                <h2>name</h2>
-                <h3>author</h3>
-                <h3>30 pages</h3>
-                <button data-="1">Delete</button>
-            </div>
-        </div>
-
+    <div class="books">
+    </div>
 
     <dialog id="Form">
         <form action="" method="dialog">
@@ -48,21 +23,21 @@
             <div class="row">
                 <div class="column">
                     <label for="title">Title</label>
-                    <input id="title" name="title" type="text">
+                    <input id="title" name="title" type="text" required>
                 </div>
             </div>
 
             <div class="row">
                 <div class="column">
                     <label for="author">Author</label>
-                    <input id="author" name="author" type="text">
+                    <input id="author" name="author" type="text" required>
                 </div>
             </div>
 
             <div class="row">
                 <div class="column">
                     <label for="pages">Pages</label>
-                    <input id="pages" name="pages" type="number" min="0">
+                    <input id="pages" name="pages" type="number" min="0" required>
                 </div>
             </div>
             <div class="checkBox">
